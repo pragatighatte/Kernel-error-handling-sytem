@@ -12,4 +12,10 @@ sudo insmod log_capture.ko
 #Unload the Module:
 sudo rmmod log_capture
 
+compile log_reader.c
+gcc log_reader.c -o log_reader
+
+Run log_reader:
+./log_reader
+
 
